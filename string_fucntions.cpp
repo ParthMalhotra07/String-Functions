@@ -22,6 +22,9 @@ int main(){
     // integer number
     int x = stoi(sub);
 
-    
+    // Erase a single character sterting
+    // from index 5
+    str.erase(5, 1);
+
     return 0;
 }
